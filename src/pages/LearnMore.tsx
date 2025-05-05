@@ -1,10 +1,11 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { CheckCircle, Globe, Tractor, Image } from 'lucide-react';
+import { CheckCircle, Globe, Tractor } from 'lucide-react';
 
 const LearnMore = () => {
   return (
@@ -29,7 +30,7 @@ const LearnMore = () => {
                 <img
                   src="https://images.unsplash.com/photo-1624774737000-c8440539999d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
                   alt="Learn more about AgriConnect"
-                  className="rounded-lg shadow-xl"
+                  className="rounded-lg shadow-xl w-full h-auto"
                 />
               </div>
             </div>
@@ -153,10 +154,10 @@ const LearnMore = () => {
                 </p>
               </div>
               <div>
-                <Image 
+                <img 
                   src="https://images.unsplash.com/photo-1560415735-3c9949f02741?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
                   alt="AI-Powered Price Recommendations"
-                  className="rounded-lg shadow-xl"
+                  className="rounded-lg shadow-xl w-full h-auto"
                 />
               </div>
             </div>

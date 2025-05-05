@@ -32,9 +32,9 @@ const HeroSection = () => {
           </div>
           <div className="md:w-1/2">
             <img
-              src="https://images.unsplash.com/photo-1595339419507-134705230288?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              src="https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
               alt="Farmers working in a field"
-              className="rounded-lg shadow-xl"
+              className="rounded-lg shadow-xl w-full h-auto"
             />
           </div>
         </div>
