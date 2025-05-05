@@ -1,11 +1,10 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { CheckCircle, Users, Farm, Tractor } from 'lucide-react';
+import { CheckCircle, Users, Globe, Tractor } from 'lucide-react';
 
 const About = () => {
   return (
